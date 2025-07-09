@@ -1,0 +1,37 @@
+.event-card {
+  width: 100%;
+  max-width: 1200px;
+  height: 400px;
+  margin: 2rem auto;
+  border-radius: 12px;
+  background-color: #2e2e2e; /* ✅ Lighter fallback background */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+  transform: scale(1.02);
+}
+
+.overlay {
+  width: 100%;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.7); /* 🟢 Darker for contrast */
+  color: white;
+}
+
+.overlay h2 {
+  font-size: 2rem;  /* 🟢 Bigger title */
+  margin-bottom: 0.5rem;
+}
+
+.overlay p {
+  margin: 0.3rem 0;
+  font-size: 1.1rem;
+}

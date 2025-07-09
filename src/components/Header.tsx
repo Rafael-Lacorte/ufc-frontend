@@ -8,15 +8,10 @@ function Header() {
     <header>
         <nav className='header-nav'>
             <ul>
-              <Link to="/fighters">
-                <li>Fighters</li>
-              </Link>
-              <Link to={'/home'}>
-                <li className="title"> UFC</li>
-              </Link>
-              <Link to={'/rankings'}>
-                <li>Rankings</li>
-              </Link>
+                <li><Link to="/fighters">Fighters</Link></li>
+                <li className="title">  <Link to={'/home'}> UFC</Link></li>
+                <li><Link to={'/rankings'}>Rankings</Link></li>
+              
             </ul>
         </nav>
     </header>

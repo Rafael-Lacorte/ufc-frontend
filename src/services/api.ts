@@ -28,3 +28,13 @@ export async function fetchFighterHistory(id: string) {
 
     return await response.json();
 };
+
+export async function fetchUpcomingEvents() {
+    const response = await fetch(`${API_BASE_URL}/event/upcoming`);
+
+    if(!response.ok) { 
+        throw new Error(`HTTP error! status: ${response.status}`)
+    }
+
+    return await response.json();
+};
