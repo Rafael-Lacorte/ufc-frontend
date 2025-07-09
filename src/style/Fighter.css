@@ -1,0 +1,106 @@
+.fight-history-table {
+  max-width: 1200px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: #000;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.fight-history-table h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.fight-history-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #111;
+}
+
+.fight-history-table th {
+  background-color: #222;
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 2px solid #333;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.fight-history-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #333;
+  color: #eee;
+}
+
+.fight-history-table tr:hover {
+  background-color: #1a1a1a;
+}
+
+/* Title fight styling */
+.fight-history-table tr.title-fight {
+  background-color: #1e1100;
+}
+
+.fight-history-table tr.title-fight:hover {
+  background-color: #2a1800;
+}
+
+.title-badge {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 6px;
+  background-color: #ff9f00;
+  color: #000;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+/* Result colors */
+.result.win {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.result.loss {
+  color: #f44336;
+  font-weight: bold;
+}
+
+/* Status messages */
+.loading, .error, .not-found {
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+}
+
+.error {
+  color: #f44336;
+}
+
+/* Responsive table */
+@media (max-width: 768px) {
+  .fight-history-table {
+    font-size: 14px;
+    padding: 10px;
+  }
+  
+  .fight-history-table th,
+  .fight-history-table td {
+    padding: 8px 10px;
+  }
+  
+  .title-badge {
+    margin-left: 4px;
+    font-size: 8px;
+  }
+}

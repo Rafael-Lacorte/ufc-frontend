@@ -1,0 +1,247 @@
+{
+  "p4p": [ 
+    {
+      "fullName": "Islam Makhachev",
+      "position": 1,
+      "type": "p4p",
+      "division": null,
+      "isCurrent": true
+    },
+    {
+      "fullName": "Ilia Topuria",
+      "position": 3,
+      "type": "p4p",
+      "division": null,
+      "isCurrent": true
+    },
+    {
+      "fullName": "Alexander Volkanovski",
+      "position": 7,
+      "type": "p4p",
+      "division": null,
+      "isCurrent": true
+    },
+    {
+      "fullName": "Alex Pereira",
+      "position": 8,
+      "type": "p4p",
+      "division": null,
+      "isCurrent": true
+    },
+    {
+      "fullName": "Tom Aspinall",
+      "position": 11,
+      "type": "p4p",
+      "division": null,
+      "isCurrent": true
+    },
+    {
+      "fullName": "Max Holloway",
+      "position": 12,
+      "type": "p4p",
+      "division": null,
+      "isCurrent": true
+    },
+    {
+      "fullName": "Charles Oliveira",
+      "position": 15,
+      "type": "p4p",
+      "division": null,
+      "isCurrent": true
+    }
+  ],
+  "featherweight": [
+    {
+      "fullName": "Alexander Volkanovski",
+      "position": 0,
+      "type": "division",
+      "division": "Featherweight",
+      "isCurrent": true
+    },
+    {
+      "fullName": "Diego Lopes",
+      "position": 2,
+      "type": "division",
+      "division": "Featherweight",
+      "isCurrent": true
+    }
+  ],
+  "lightweight": [
+    {
+      "fullName": "Islam Makhachev",
+      "position": 0,
+      "type": "division",
+      "division": "Lightweight",
+      "isCurrent": true
+    },
+    {
+      "fullName": "Charles Oliveira",
+      "position": 2,
+      "type": "division",
+      "division": "Lightweight",
+      "isCurrent": true
+    },
+    {
+      "fullName": "Justin Gaethje",
+      "position": 3,
+      "type": "division",
+      "division": "Lightweight",
+      "isCurrent": true
+    },
+    {
+      "fullName": "Dustin Poirier",
+      "position": 5,
+      "type": "division",
+      "division": "Lightweight",
+      "isCurrent": true
+    },
+    {
+      "fullName": "Michael Chandler",
+      "position": 12,
+      "type": "division",
+      "division": "Lightweight",
+      "isCurrent": true
+    },
+    {
+      "fullName": "generic",
+      "position": 12,
+      "type": "division",
+      "division": "Lightweight",
+      "isCurrent": true
+    },
+    {
+      "fullName": "generic",
+      "position": 12,
+      "type": "division",
+      "division": "Lightweight",
+      "isCurrent": true
+    },
+    {
+      "fullName": "generic",
+      "position": 12,
+      "type": "division",
+      "division": "Lightweight",
+      "isCurrent": true
+    },
+    {
+      "fullName": "generic",
+      "position": 12,
+      "type": "division",
+      "division": "Lightweight",
+      "isCurrent": true
+    },
+    {
+      "fullName": "generic",
+      "position": 12,
+      "type": "division",
+      "division": "Lightweight",
+      "isCurrent": true
+    },
+    {
+      "fullName": "generic",
+      "position": 12,
+      "type": "division",
+      "division": "Lightweight",
+      "isCurrent": true
+    },
+    {
+      "fullName": "generic",
+      "position": 12,
+      "type": "division",
+      "division": "Lightweight",
+      "isCurrent": true
+    },
+    {
+      "fullName": "generic",
+      "position": 12,
+      "type": "division",
+      "division": "Lightweight",
+      "isCurrent": true
+    },
+    {
+      "fullName": "generic",
+      "position": 12,
+      "type": "division",
+      "division": "Lightweight",
+      "isCurrent": true
+    },
+    {
+      "fullName": "generic",
+      "position": 12,
+      "type": "division",
+      "division": "Lightweight",
+      "isCurrent": true
+    },
+    {
+      "fullName": "generic",
+      "position": 12,
+      "type": "division",
+      "division": "Lightweight",
+      "isCurrent": true
+    }
+  ],
+  "middleweight": [
+    {
+      "fullName": "Khamzat Chimaev",
+      "position": 3,
+      "type": "division",
+      "division": "Middleweight",
+      "isCurrent": true
+      
+    }
+  ],
+  "lightHeavyweight": [
+    {
+      "fullName": "Alex Pereira",
+      "position": 1,
+      "type": "division",
+      "division": "Light Heavyweight",
+      "isCurrent": true
+      
+    },
+    {
+      "fullName": "Jiri Prochazka",
+      "position": 2,
+      "type": "division",
+      "division": "Light Heavyweight",
+      "isCurrent": true
+    },
+    {
+      "fullName": "Jamahal Hill",
+      "position": 4,
+      "type": "division",
+      "division": "Light Heavyweight",
+      "isCurrent": true
+    },
+    {
+      "fullName": "Jan Blachowicz",
+      "position": 5,
+      "type": "division",
+      "division": "Light Heavyweight",
+      "isCurrent": true
+    },
+    {
+      "fullName": "Khalil Rountree",
+      "position": 7,
+      "type": "division",
+      "division": "Light Heavyweight",
+      "isCurrent": true
+    },
+    {
+      "fullName": "Dominick Reyes",
+      "position": 8,
+      "type": "division",
+      "division": "Light Heavyweight",
+      "isCurrent": true
+    }
+  ],
+  "heavyweight": [
+    {
+      "fullName": "Tom Aspinall",
+      "position": 0,
+      "type": "division",
+      "division": "Heavyweight",
+      "isCurrent": true
+    }
+  ]
+}

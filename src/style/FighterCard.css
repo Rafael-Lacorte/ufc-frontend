@@ -1,0 +1,39 @@
+.fighter-card {
+  background-color: #202020;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+  border: 1px solid #333;
+  color: #f0f0f0;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.fighter-card:hover {
+  background-color: #2a2a2a;
+  transform: translateY(-4px);
+  box-shadow: 0 6px 25px rgba(255, 255, 255, 0.1);
+}
+
+.fighter-card h1 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+  border-bottom: 1px solid #444;
+  padding-bottom: 0.5rem;
+}
+
+.fighter-card p {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+.fighter-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.empty-nickname {
+  opacity: 0.3;
+  font-style: italic;
+}

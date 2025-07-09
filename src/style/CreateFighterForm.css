@@ -1,0 +1,28 @@
+.create-fighter-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  gap: 16px;
+  padding: 20px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.create-fighter-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.create-fighter-form input,
+.create-fighter-form select {
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+}
+

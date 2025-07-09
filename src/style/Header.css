@@ -1,0 +1,28 @@
+header {
+  width: 100%;
+  background-color: darkgrey;
+}
+
+.header-nav {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.header-nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.header-nav li {
+  padding: 0.5rem 1rem;
+}
+
+.title {
+  font-weight: bold;
+}
