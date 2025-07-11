@@ -18,9 +18,10 @@ type EventData = Event[];
 function Events() {
   const {data, isLoading} = useQuery<EventData>({
     queryKey: ['events'],
-    queryFn: () => fetchUpcomingEvents()
+    queryFn: () => fetchUpcomingEvents(),
+    staleTime: 100000
   });
-  console.log(data)
+  
   if (isLoading) return <p>Loading upcoming Events...</p>;
   return (
     <div className="events">

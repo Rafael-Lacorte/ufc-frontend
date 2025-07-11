@@ -5,7 +5,8 @@ import Fighters from './components/Fighters'
 import Header from './components/Header'
 import Rankings from './components/Rankings'
 import CreateFightersForm from './components/CreateFighterForm'
-import Fighter from './components/Fighter'
+import Fighter from './components/FighterHistory'
+import FighterHistory from './components/FighterHistory'
 // import CreateFightersForm from './components/CreateFighterForm'
 
 function App() {
@@ -15,9 +16,9 @@ function App() {
       <Header />
       <div className='main-content'>
       <Routes>
-        <Route path='/home' element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path='/fighters' element={<Fighters />} />
-        <Route path='/fighters/:id' element={<Fighter />} />
+        <Route path='/fighters/:id' element={<FighterHistory />} />
         <Route path='/rankings' element={<Rankings />} />
         <Route path='/createFighter' element={<CreateFightersForm />} />
       </Routes>

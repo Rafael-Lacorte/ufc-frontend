@@ -7,7 +7,6 @@ function Home() {
     <div>
       <h1 className='home'>Welcome to the UFC</h1>
       <article>
-        Upcoming Events
         <Events />
       </article>
     </div>

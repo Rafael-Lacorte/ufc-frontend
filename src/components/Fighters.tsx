@@ -23,7 +23,8 @@ type FightersData = Fighter[];
 function Fighters() {
   const {data, isLoading} = useQuery<FightersData>({
     queryKey: ['fighters'],
-    queryFn: () => fetchFighters()
+    queryFn: () => fetchFighters(),
+    staleTime: 120000
   });
 
   if (isLoading) return <p>Loading rankings...</p>;

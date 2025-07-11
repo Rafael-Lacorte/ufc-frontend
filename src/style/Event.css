@@ -1,7 +1,7 @@
 .event-card {
   width: 100%;
   max-width: 1200px;
-  height: 400px;
+  height: 800px;
   margin: 2rem auto;
   border-radius: 12px;
   background-color: #2e2e2e; /* ✅ Lighter fallback background */

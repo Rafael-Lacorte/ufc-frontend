@@ -9,7 +9,7 @@ function Header() {
         <nav className='header-nav'>
             <ul>
                 <li><Link to="/fighters">Fighters</Link></li>
-                <li className="title">  <Link to={'/home'}> UFC</Link></li>
+                <li className="title">  <Link to={'/'}> UFC</Link></li>
                 <li><Link to={'/rankings'}>Rankings</Link></li>
               
             </ul>

@@ -20,6 +20,7 @@
   width: 100%;
   border-collapse: collapse;
   background: #111;
+  
 }
 
 .fight-history-table th {
@@ -31,12 +32,14 @@
   color: #fff;
   text-transform: uppercase;
   font-size: 14px;
+  padding: 0.6rem 0.8rem;
 }
 
 .fight-history-table td {
   padding: 12px 15px;
   border-bottom: 1px solid #333;
   color: #eee;
+  padding: 0.6rem 0.8rem;
 }
 
 .fight-history-table tr:hover {

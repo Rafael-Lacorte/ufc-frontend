@@ -17,13 +17,10 @@ const CATEGORY_KEY = 'light_heavyweight';
 const CATEGORY_STRING = 'LIGHT HEAVYWEIGHT';
 
 function Rankings() {
-  // const [rankings, setRankings] = useState<RankingsData>({});
-  // const [loading, setLoading] = useState(true);
-  // const [error, setError] = useState<string | null>(null)
-  
   const {data, isLoading} = useQuery<RankingsData>({
     queryKey: ['rankings'],
-    queryFn: () => fetchRankings()
+    queryFn: () => fetchRankings(),
+    staleTime: 120000
   })
   
   const divisionOrder = [

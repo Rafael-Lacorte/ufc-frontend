@@ -10,6 +10,16 @@ export async function fetchRankings() {
     return await response.json();
 };
 
+export async function fetchFighter(id: string) {
+    const response = await fetch(`${API_BASE_URL}/fighter/${id}`);
+
+    if(!response.ok) { 
+        throw new Error(`HTTP error! status: ${response.status}`)
+    }
+
+    return await response.json();
+};
+
 export async function fetchFighters() {
     const response = await fetch(`${API_BASE_URL}/fighter`);
 
@@ -19,6 +29,7 @@ export async function fetchFighters() {
 
     return await response.json();
 };
+
 export async function fetchFighterHistory(id: string) {
     const response = await fetch(`${API_BASE_URL}/fight/fighter/history/${id}`);
 
